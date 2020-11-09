@@ -23,14 +23,19 @@
     },
     "autoload": {
         "psr-4": {
-            "Wikimedia\\Composer\\": "src/"
+            "Waw3\\Composer\\": "src/"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.5.x-dev"
         },
-        "class": "Wikimedia\\Composer\\MergePlugin"
+        "class": "Waw3\\Composer\\MergePlugin",
+        "laravel": {
+            "providers": [
+                "Waw3\\Composer\\MergePlugin\\MergePluginServiceProvider"
+            ]
+        }
     },
     "config": {
         "optimize-autoloader": true
