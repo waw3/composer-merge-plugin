@@ -1,12 +1,12 @@
 {
-    "name": "wikimedia/composer-merge-plugin",
+    "name": "waw3/composer-merge-plugin",
     "description": "Composer plugin to merge multiple composer.json files",
     "type": "composer-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "Bryan Davis",
-            "email": "bd808@wikimedia.org"
+            "name": "William Whitmire",
+            "email": "krackenlabs@gmail.com"
         }
     ],
     "minimum-stability": "dev",
